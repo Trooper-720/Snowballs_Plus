@@ -2,57 +2,36 @@
 
 ## Description
 
-Welcome to the Snowballs Plus Datapack for Minecraft! This datapack adds 
+Welcome to the Snowballs Plus Datapack for Minecraft! This datapack adds damage back to Snowballs and adds a new Snowball type called a "Hard Snowball". The datapack also addes new achievements related to Snowballs.
 
 ## Features
 
-1. **Snowball Launcher**
-   - Craft a special snowball launcher using in-game recipes.
-   - Launch snowballs at a distance with precision and accuracy.
+1. **Snowball Damage**
+   - Snowball's deal 1/2 heart damage.
 
-2. **Explosive Snowballs**
-   - Snowballs now explode upon impact, creating a small blast radius.
-   - Use explosive snowballs strategically to surprise opponents or clear obstacles.
+2. **Hard Snowballs**
+   - Hard Snowball's deal 1 heart damage.
+   - Craftable by placing a Snowball and (Cobblestone/Deepslate) into the crafting table in any shape!
 
-3. **Freezing Effect**
-   - Hit your enemies with snowballs to freeze them momentarily.
-   - Frozen players will experience reduced mobility, allowing for tactical advantage.
-
-4. **Snowball Barrage**
-   - Charge up a powerful snowball barrage attack by holding the right-click button.
-   - Unleash a flurry of snowballs upon release, overwhelming your foes.
-
-5. **Enhanced Snow Golems**
-   - Snow golems now have improved combat abilities.
-   - They can throw snowballs at enemies, assisting players in battles.
+3. **New Achievements**
+   - Cool Achievements related to Snowballs and Combat with them!
 
 ## Installation
 
-1. Download the datapack ZIP file from the provided link.
-2. Extract the ZIP file.
-3. Move the extracted folder to the `datapacks` folder in your Minecraft world directory.
+1. Download the datapack file from the provided link.
+2. Move the extracted folder to the `datapacks` folder in your Minecraft world directory (servers need to upload to the world save's `datapacks` folder).
 
 ## Usage
 
 1. Load the game with the installed datapack.
 2. Obtain snowballs by crafting or collecting them in snowy biomes.
 3. Experiment with the different features of the datapack during gameplay.
-4. Enjoy enhanced snowball fights and exciting new possibilities!
+4. Enjoy enhanced snowball fights!
 
 ## Compatibility
 
-- This datapack is compatible with Minecraft Java Edition version 1.16 and above.
+- This datapack is compatible with Minecraft Java Edition version 1.20.4 and above.
 - It may not be compatible with other mods or datapacks that modify snowball mechanics.
-
-## Feedback and Support
-
-Your feedback is valuable! If you encounter any issues, have suggestions for improvements, or want to share your experiences with the datapack, please don't hesitate to reach out.
-Contact: [Your contact information or Minecraft forum thread link]
-
-## Credits
-
-- Developed by [Your Minecraft username or development team name]
-- Special thanks to the Minecraft community for inspiration and support.
 
 ## Disclaimer
 
