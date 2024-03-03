@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobblestone"
+            
+        },
+        "title": {
+            "text": "Subzero Combat"
+        },
+        "description": "Craft a hard snowball!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/powder_snow.png"
+    },
+    "criteria": {
+        "get_a_hard_snowball":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:snowball"
+                        ],
+                        "nbt": "{CustomModelData:226590}"
+                    }
+                ]
+
+            }
+        }
+    },
+    "requirements": 
+    [
+        ["get_a_hard_snowball"]
+    ],
+    "rewards": 
+    {
+        "experience": 5
+    },
+
+    "parent": "snowball:root"
+
+
+}

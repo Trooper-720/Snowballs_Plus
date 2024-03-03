@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {
+            "text": "Powdered Beginnings"
+            
+        },
+        "description": "Get a snowball!",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/powder_snow.png"
+    },
+    "criteria": {
+        "get_a_snowball":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:snowball"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        ["get_a_snowball"]
+    ],
+    "rewards": 
+    {
+        "experience": 5
+    }
+}

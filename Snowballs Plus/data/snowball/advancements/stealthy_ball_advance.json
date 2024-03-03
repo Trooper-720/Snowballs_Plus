@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+            
+        },
+        "title": {
+            "text": "Stealthy Ball"
+        },
+        "description": "Throw a snowball at a mob whilst sneaking",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/powder_snow.png"
+    },
+    "criteria": {
+        "sneak_throw":
+        {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                  "blocked": false,
+                  "type": {
+                    "direct_entity": {
+                      "type": "minecraft:snowball"
+                    }
+                  },
+                  "source_entity": 
+                  {
+                    "type" : "minecraft:player",
+                    "flags": {
+                        "is_sneaking": true
+                    }
+                  }
+                }
+                
+            }
+        }
+    },
+    "requirements": 
+    [
+        ["sneak_throw"]
+    ],
+    "rewards": 
+    {
+        "experience": 5
+    },
+
+    "parent": "snowball:hey_over_here_advance"
+
+
+}

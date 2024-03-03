@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": {
+            "text": "Hey over here!"
+        },
+        "description": "Throw a snowball at a mob",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/powder_snow.png"
+    },
+    "criteria": {
+        "throw_a_snowball_at_mob":
+        {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                  "blocked": false,
+                  "type": {
+                    "direct_entity": {
+                      "type": "minecraft:snowball"
+                    }
+                  }
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        ["throw_a_snowball_at_mob"]
+    ],
+    "rewards": 
+    {
+        "experience": 5
+    },
+
+    "parent": "snowball:root"
+
+
+}

@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": {
+            "text": "Heavy DUTY"
+        },
+        "description": "Throw a hard snowball at a mob",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/powder_snow.png"
+    },
+    "criteria": {
+        "throw_a_hard_snowball_at_mob":
+        {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                  "blocked": false,
+                  "type": {
+                    "direct_entity": {
+                      "type": "minecraft:snowball"
+                    },
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                          "mainhand": {
+                            "items": [
+                                "snowball"
+                            ],
+                            "nbt": "{CustomModelData:226590}"
+                          }
+                        }  
+                    }
+                  }
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        ["throw_a_hard_snowball_at_mob"]
+    ],
+    "rewards": 
+    {
+        "experience": 5
+    },
+
+    "parent": "snowball:subzero_advance"
+
+
+}

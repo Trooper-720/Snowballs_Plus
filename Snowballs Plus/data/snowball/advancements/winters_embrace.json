@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+            
+        },
+        "title": {
+            "text": "Winters Embrace"
+        },
+        "description": "Kill a mob with a snowball or hard snowball",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/powder_snow.png"
+    },
+    "criteria": {
+        "kill_with_snowball":
+        {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "source_entity": {
+                        "type" : "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                  "minecraft:snowball"
+                                ]
+                            }
+                        }
+                    }            
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        ["kill_with_snowball"]
+    ],
+    "rewards": 
+    {
+        "experience": 10
+    },
+
+    "parent": "snowball:hey_over_here_advance"
+
+
+}

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "snowball:hard_snowball_cobble_2x2_recipe"
+      }
+    }
+  },
+  "rewards": {
+    "function": "snowball:give_hard_snowball_recipe"
+  }
+}
